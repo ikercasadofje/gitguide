@@ -74,9 +74,3 @@ git stash list
 git stash pop
 git stash list
 ```
-
-# 11.Revert commit
-```
-git log --oneline
-git revert [COMMIT_ID]
-```
