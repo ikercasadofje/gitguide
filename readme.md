@@ -91,11 +91,15 @@ git cherry-pick [COMMIT_ID]
 ```
 git log --oneline
 git reset --soft HEAD~1
+git reset --hard HEAD~1
+git reset --mixed HEAD~1
 ```
 
 ### 14.Create Patch
 ```
 git diff HEAD > diff.patch
+git format-patch -1 HEAD
+git diff --staged > staged.patch
 ```
 
 ### 15. Apply Patch
