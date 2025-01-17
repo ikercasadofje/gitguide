@@ -106,3 +106,10 @@ git diff --staged > staged.patch
 ```
 git apply > diff.patch
 ```
+
+###16. Init GitHub
+```
+git remote add origin [REMOTE-URL]
+git push -u origin master
+git push origin --all
+```
